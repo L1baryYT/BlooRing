@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodorb",
+  "version": "1.0.0",
+  "name": "BloodOrb Auto",
+  "description": "Автоматическое использование Шара Крови при низком HP цели.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.bloodorb.BloodOrbMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
